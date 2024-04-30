@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nitro build",
+    "dev": "nitro dev",
+    "prepare": "nitro prepare",
+    "preview": "node .output/server/index.mjs",
+    "biome": "biome",
+    "check": "biome check --apply ./server"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.7.1",
+    "nitropack": "latest"
+  },
+  "dependencies": {
+    "@vercel/kv": "^1.0.1"
+  }
+}
