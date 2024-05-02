@@ -30,3 +30,17 @@
 **如果你的网络和设备满足上面的条件，就可以按照我的方案来尝试了。**
 
 此仓库的代码是用来部署到 Vercel 服务端的, 相关教程见：<https://chi.miantiao.me/posts/without-ipv4/>
+
+## 部署教程
+
+1. 通过下面按钮一键部署此下面到 Vercel
+
+[![Vercel](https://vercel.com/button)](https://vercel.com/new/miantiao/clone?repository-url=https%3A%2F%2Fgithub.com%2Fccbikai%2Fwithout-ipv4)
+
+2. 创建 KV Database 存储，并且关联到此项目
+
+![image](https://github.com/ccbikai/without-ipv4/assets/2959393/41d52fa9-0e90-4572-a45d-5893bab68bf1)
+
+3. 再 Deployments 中重写部署一次
+
+![image](https://github.com/ccbikai/without-ipv4/assets/2959393/35e617fe-ac06-4e82-8aab-f5a583a3f134)
